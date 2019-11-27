@@ -6,7 +6,11 @@ app.get("/",()=>{
     console.log("hey there!")
 }
 )
+app.get("/",()=>{
 
+    console.log("hey there again!")
+}
+)
 app.listen(3450,()=>{
     console.log("listening to port 3450....")
 })
